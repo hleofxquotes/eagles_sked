@@ -1,37 +1,60 @@
 import "dart:async";
 
 import 'package:analog_clock/analog_clock_painter.dart';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-void main() => runApp(MyApp());
+import 'package:eagles_sked/bell.dart';
+
+void main() async {
+  final schedule = await fetchBellBlocks();
+
+//  for (var key in bellBlocks.keys) print(key);
+//  for (List<BellBlock> bellBlocks in schedule.values) {
+//    for (BellBlock bellBlock in bellBlocks) {
+//      print(
+//          '${bellBlock.dotw}, ${bellBlock.period}, ${bellBlock.timeBegin}, ${bellBlock.timeEnd}');
+//    }
+//  }
+
+  runApp(MyApp(schedule));
+}
 
 class MyScheduleModel with ChangeNotifier {
   String message1 = '';
   String message2 = '';
-  Timer _timer;
+
+//  Timer _timer;
   int counter = 0;
 
-  MyScheduleModel() {
+  final schedule;
+
+  MyScheduleModel(this.schedule) {
     print("> MyScheduleModel");
 
-    _timer = Timer.periodic(const Duration(seconds: 1), (_) {
+    Timer.periodic(const Duration(seconds: 1), (_) {
       update();
     });
   }
+
   void update() {
 //    print("> XXX update");
     counter++;
 
-    message1 = 'until end of $counter';
-    message2 = 'until start of $counter';
+    var now = DateTime.now();
+
+    message1 = 'until end of $now';
+    message2 = 'until start of $now';
 
     notifyListeners();
   }
 }
 
 class MyApp extends StatelessWidget {
+  final Map<String, dynamic> schedule;
+
+  MyApp(this.schedule);
+
   @override
   Widget build(BuildContext context) {
 //    print("> MyApp.build");
@@ -41,7 +64,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       home: ChangeNotifierProvider<MyScheduleModel>(
-        builder: (_) => MyScheduleModel(),
+        builder: (_) => MyScheduleModel(schedule),
         child: MyHomePage(),
       ),
     );
@@ -89,7 +112,11 @@ class MyHomeBody extends StatelessWidget {
 
   Widget buildAnalogClock(BuildContext context, MyScheduleModel model) {
     var analogClock = Container(
-//      decoration: widget.decoration,
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('images/Eagle_Logo_144x180.jpg'),
+        ),
+      ),
       child: Center(
           child: AspectRatio(
               aspectRatio: 1.0,

@@ -1,0 +1,282 @@
+{
+  "FRIDAY": [
+    {
+      "dotw": "FRIDAY",
+      "period": "0",
+      "time_begin": "07:15:00",
+      "time_end": "08:05:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "1",
+      "time_begin": "08:10:00",
+      "time_end": "09:00:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "2",
+      "time_begin": "09:05:00",
+      "time_end": "10:00:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "Brunch",
+      "time_begin": "10:00:00",
+      "time_end": "10:10:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "3",
+      "time_begin": "10:15:00",
+      "time_end": "11:05:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "4",
+      "time_begin": "11:10:00",
+      "time_end": "12:00:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "Lunch",
+      "time_begin": "12:00:00",
+      "time_end": "12:45:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "5",
+      "time_begin": "12:50:00",
+      "time_end": "13:40:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "6",
+      "time_begin": "13:45:00",
+      "time_end": "14:35:00"
+    },
+    {
+      "dotw": "FRIDAY",
+      "period": "7",
+      "time_begin": "14:40:00",
+      "time_end": "15:30:00"
+    }
+  ],
+  "MONDAY": [
+    {
+      "dotw": "MONDAY",
+      "period": "0",
+      "time_begin": "07:15:00",
+      "time_end": "08:05:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "1",
+      "time_begin": "08:10:00",
+      "time_end": "09:00:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "2",
+      "time_begin": "09:05:00",
+      "time_end": "10:00:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "Brunch",
+      "time_begin": "10:00:00",
+      "time_end": "10:10:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "3",
+      "time_begin": "10:15:00",
+      "time_end": "11:05:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "4",
+      "time_begin": "11:10:00",
+      "time_end": "12:00:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "Lunch",
+      "time_begin": "12:00:00",
+      "time_end": "12:45:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "5",
+      "time_begin": "12:50:00",
+      "time_end": "13:40:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "6",
+      "time_begin": "13:45:00",
+      "time_end": "14:35:00"
+    },
+    {
+      "dotw": "MONDAY",
+      "period": "7",
+      "time_begin": "14:40:00",
+      "time_end": "15:30:00"
+    }
+  ],
+  "THURSDAY": [
+    {
+      "dotw": "THURSDAY",
+      "period": "Meeting",
+      "time_begin": "07:30:00",
+      "time_end": "08:05:00"
+    },
+    {
+      "dotw": "THURSDAY",
+      "period": "1",
+      "time_begin": "08:10:00",
+      "time_end": "09:45:00"
+    },
+    {
+      "dotw": "THURSDAY",
+      "period": "Brunch",
+      "time_begin": "09:45:00",
+      "time_end": "10:00:00"
+    },
+    {
+      "dotw": "THURSDAY",
+      "period": "3",
+      "time_begin": "10:05:00",
+      "time_end": "11:35:00"
+    },
+    {
+      "dotw": "THURSDAY",
+      "period": "Lunch",
+      "time_begin": "11:35:00",
+      "time_end": "12:20:00"
+    },
+    {
+      "dotw": "THURSDAY",
+      "period": "5",
+      "time_begin": "12:25:00",
+      "time_end": "13:55:00"
+    },
+    {
+      "dotw": "THURSDAY",
+      "period": "7",
+      "time_begin": "14:00:00",
+      "time_end": "15:30:00"
+    }
+  ],
+  "TUESDAY": [
+    {
+      "dotw": "TUESDAY",
+      "period": "0",
+      "time_begin": "07:20:00",
+      "time_end": "08:05:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "1",
+      "time_begin": "08:10:00",
+      "time_end": "08:55:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "2",
+      "time_begin": "09:00:00",
+      "time_end": "09:50:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "Brunch",
+      "time_begin": "09:50:00",
+      "time_end": "10:00:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "3",
+      "time_begin": "10:05:00",
+      "time_end": "10:50:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "Tutorial",
+      "time_begin": "10:55:00",
+      "time_end": "11:25:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "4",
+      "time_begin": "11:30:00",
+      "time_end": "12:15:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "Lunch",
+      "time_begin": "12:15:00",
+      "time_end": "13:00:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "5",
+      "time_begin": "13:05:00",
+      "time_end": "13:50:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "6",
+      "time_begin": "13:55:00",
+      "time_end": "14:40:00"
+    },
+    {
+      "dotw": "TUESDAY",
+      "period": "7",
+      "time_begin": "14:45:00",
+      "time_end": "15:30:00"
+    }
+  ],
+  "WEDNESDAY": [
+    {
+      "dotw": "WEDNESDAY",
+      "period": "0",
+      "time_begin": "07:15:00",
+      "time_end": "08:45:00"
+    },
+    {
+      "dotw": "WEDNESDAY",
+      "period": "2",
+      "time_begin": "08:50:00",
+      "time_end": "10:25:00"
+    },
+    {
+      "dotw": "WEDNESDAY",
+      "period": "Brunch",
+      "time_begin": "10:25:00",
+      "time_end": "10:40:00"
+    },
+    {
+      "dotw": "WEDNESDAY",
+      "period": "4",
+      "time_begin": "10:45:00",
+      "time_end": "12:15:00"
+    },
+    {
+      "dotw": "WEDNESDAY",
+      "period": "Lunch",
+      "time_begin": "12:15:00",
+      "time_end": "13:00:00"
+    },
+    {
+      "dotw": "WEDNESDAY",
+      "period": "6",
+      "time_begin": "13:05:00",
+      "time_end": "14:35:00"
+    },
+    {
+      "dotw": "WEDNESDAY",
+      "period": "Meeting",
+      "time_begin": "14:35:00",
+      "time_end": "15:30:00"
+    }
+  ]
+}
